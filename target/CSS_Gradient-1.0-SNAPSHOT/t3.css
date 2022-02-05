@@ -1,0 +1,35 @@
+/*
+  Project name(项目名称)：CSS_Gradient 
+  File name(文件名): t3
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/2/5 
+  Time(创建时间)： 21:47
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+div {
+    width: 210px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.one {
+    background: conic-gradient(at 50%, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
+.two {
+    background: conic-gradient(red 0deg 30deg, orange 30deg 50deg, yellow 50deg 200deg, green 200deg 300deg, blue 300deg 360deg);
+}
+
+.three {
+    background: conic-gradient(from 90deg, red 0% 55%, yellow 55% 90%, lime 90% 100%);
+}
+
+.four {
+    background: conic-gradient(#fff 0.25turn, #000 0.25turn 0.5turn, #fff 0.5turn 0.75turn, #000 0.75turn);
+}
