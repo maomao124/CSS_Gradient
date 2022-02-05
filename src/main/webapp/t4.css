@@ -1,0 +1,36 @@
+/*
+  Project name(项目名称)：CSS_Gradient 
+  File name(文件名): t4
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/2/5 
+  Time(创建时间)： 21:50
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+div {
+    width: 210px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.one {
+    background: repeating-linear-gradient(190deg, #000 0px 10px, #FFF 10px 20px);
+}
+
+.two {
+    background: repeating-radial-gradient(circle 100px at 50%, red 0% 10%, yellow 10% 30%, lime 30% 40%);
+}
+
+.three {
+    background: repeating-conic-gradient(#69f 0 36deg, #fd44ff 36deg 72deg);
+}
+
+.four {
+    background: conic-gradient(#fff 0.25turn, #000 0.25turn 0.5turn, #fff 0.5turn 0.75turn, #000 0.75turn) top left / 25% 25% repeat;
+}
